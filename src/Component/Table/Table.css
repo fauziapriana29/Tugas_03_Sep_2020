@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Lobster+Two:ital@1&family=Pacifico&family=Schoolbell&display=swap');
+
+
+.con-table {
+    background-color: rgba(43, 43, 43, 0.644);
+    border-radius: 20px;
+}
+.title-list {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -12px;
+}
+th {
+    font-size: 20px;
+    text-align: center;
+}
+.no-th {
+    width: 50px;
+}
+.date-th {
+    width: 130px;
+}
+.time-th {
+    width: 50px;
+}
+.list-th {
+    width: 715px;
+}
+.isi-no {
+    color: rgb(183, 255, 248);
+}
+.isi-time {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: rgb(183, 255, 248);
+}
+.isi-list {
+    font-family: 'Schoolbell',
+    cursive;
+    font-weight: bold;
+    font-size: 30px;
+    text-indent: 20px;
+    color: yellow;
+}

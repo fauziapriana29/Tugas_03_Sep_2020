@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
+
+*{
+    /* border: 1px solid black; */
+}
+.navMenu {
+    background-color: rgb(8, 151, 3);
+    display: block;
+    height: 69px;
+}
+.icon {
+    margin-top: -18px;
+    width: 52px;
+    height: 45px;
+    margin-left: 20px;
+}
+.brand {
+    display: inline-block;
+    font-family:'Oleo Script',
+    cursive;
+    margin-left: 5px;
+    margin-top: 6px;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}

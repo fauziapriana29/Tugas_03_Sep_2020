@@ -1,0 +1,15 @@
+* {
+    /* border: 1px solid black */
+}
+.spantext {
+    background-color: rgba(22, 206, 37, 0.822);
+    color: black;
+    font-weight: bold;
+}
+.inputContainer {
+    padding-left: 240px;
+    margin-top: 40px;
+}
+.inplist {
+    width: 500px;
+}
