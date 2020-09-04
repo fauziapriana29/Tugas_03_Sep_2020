@@ -1,19 +1,23 @@
 import React from 'react'
 import './Table.css'
+import Delete from './DeleteAPI.jsx'
 
 const Table = (props) => {
   const { list } = props
+
 
   const mapList = list.map((data, index) => {
 
     return (
       <tr key={index}>
-        <th scope="row" className="isi-no">{index + 1}</th>
+        <th scope="row" className="isi-no">
+          {index + 1}
+        </th>
         <td className="isi-time">{data.Date}</td>
         <td className="isi-time">{data.Time}</td>
         <td className="isi-list">{data.List}</td>
         <td>
-          <button className="btn btn-danger">
+          <button className="btn btn-danger" onClick={() => Delete(data)}>
             <i className="far fa-trash-alt fa-lg"></i>
           </button>{" "}
           &nbsp;

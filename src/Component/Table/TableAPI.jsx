@@ -9,7 +9,7 @@ const API = () => {
 
     const fetchApi = () => {
         axios.get(" http://localhost:3000/list").then((respone) => {
-            console.log(respone.data)
+            // console.log(respone.data)
             const data = respone.data
             setList(data)
         }).catch((error) => [
