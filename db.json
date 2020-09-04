@@ -1,22 +1,22 @@
 {
   "list": [
     {
-      "Date": "2020-09-04",
-      "Time": "20:08",
-      "List": "Training Coding",
+      "Date": "2020-09-05",
+      "Time": "10:10",
+      "List": "Hasil upDate",
       "id": 1
     },
     {
-      "Date": "2020-09-12",
-      "Time": "21:08",
-      "List": "Learn JavaScript",
+      "Date": "2020-09-05",
+      "Time": "18:00",
+      "List": "Change list third",
       "id": 2
     },
     {
-      "Date": "2020-09-17",
-      "Time": "10:40",
-      "List": " main pubg yok wei",
-      "id": 4
+      "Date": "2020-09-11",
+      "Time": "18:40",
+      "List": "List baru",
+      "id": 3
     }
   ]
 }

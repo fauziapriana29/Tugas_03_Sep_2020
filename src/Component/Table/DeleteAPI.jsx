@@ -10,7 +10,7 @@ import axios from '../../../node_modules/axios/dist/axios.js'
           axios
             .delete(`http://localhost:3000/list/${data.id}`)
             .then((respone) => {
-              alert("List di hapus");
+              // alert("List di hapus");
               window.location.reload(true);
             })
             .catch((error) => {

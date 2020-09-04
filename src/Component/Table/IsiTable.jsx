@@ -1,6 +1,7 @@
 import React from 'react'
 import './Table.css'
 import Delete from './DeleteAPI.jsx'
+import Update from './UpdateAPI.jsx'
 
 const Table = (props) => {
   const { list } = props
@@ -21,7 +22,7 @@ const Table = (props) => {
             <i className="far fa-trash-alt fa-lg"></i>
           </button>{" "}
           &nbsp;
-          <button className="btn btn-secondary">
+          <button className="btn btn-secondary" onClick={() => Update(data)}>
             <i className="fas fa-pencil-alt fa-lg"></i>
           </button>
         </td>
