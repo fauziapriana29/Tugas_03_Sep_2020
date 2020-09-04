@@ -20,7 +20,7 @@ const Table = (props) => {
         <td>
           <button className="btn btn-danger" onClick={() => Delete(data)}>
             <i className="far fa-trash-alt fa-lg"></i>
-          </button>{" "}
+          </button>
           &nbsp;
           <button className="btn btn-secondary" onClick={() => Update(data)}>
             <i className="fas fa-pencil-alt fa-lg"></i>

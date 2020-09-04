@@ -17,8 +17,8 @@ const API = () => {
         ]);
     }
     useEffect(() => {
-        fetchApi()
-    }, [])
+        fetchApi();
+    }, []);
 
     
     return(

@@ -3,20 +3,14 @@
     {
       "Date": "2020-09-05",
       "Time": "10:10",
-      "List": "Hasil upDate",
+      "List": "upadate",
       "id": 1
     },
     {
-      "Date": "2020-09-05",
-      "Time": "18:00",
-      "List": "Change list third",
+      "Date": "2020-09-30",
+      "Time": "12:00",
+      "List": "Meeting with new boss",
       "id": 2
-    },
-    {
-      "Date": "2020-09-11",
-      "Time": "18:40",
-      "List": "List baru",
-      "id": 3
     }
   ]
 }
